@@ -30,7 +30,7 @@ header {
     .icons {
         display: flex;
         justify-content: flex-start;
-        margin: 5% 1% 0 0;
+        margin: 10% 1% 0 0;
     }
 }
 
@@ -80,12 +80,23 @@ footer {
         background-size: 100% auto, cover;
     }
 
-    main {
-        margin-top: 10%;
+    .content {
+        grid-template-columns: 2fr 3fr;
+        width: 60%;
     }
 
-    .content {
-        grid-template-columns: 1fr 1fr;
+
+    header {
+        padding: 15% 0 0 10%;
+        .icons {
+            padding: 10% 0;
+            margin: 0;
+        }
+    }
+
+    main {
+        padding: 5%;
+        margin-top: 10%;
     }
 
     .storage {

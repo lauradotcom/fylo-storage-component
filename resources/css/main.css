@@ -110,12 +110,12 @@ main {
 .storage-callout {
   position: absolute;
   bottom: -30px;
-  left: 30%;
+  left: 50%;
   background-color: #FFF;
   border-radius: 10px;
   width: 30%;
   min-width: 150px;
-  margin: 0 auto;
+  margin-left: -75px;
   z-index: 2;
 }
 .storage-callout p {
@@ -135,6 +135,13 @@ main {
 
 footer {
   text-align: bottom;
+}
+footer p {
+  font-size: 11px;
+  text-align: center;
+}
+footer p a {
+  color: #ffa399;
 }
 
 @media screen and (min-width: 1024px) {
